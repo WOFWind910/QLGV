@@ -1,0 +1,100 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+
+@model IPagedList<QuanLyGiaoVu.Data.Lophoc>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<h1>Lớp học</h1>
+ 
+<a asp-action="create" class=" btn btn-primary my-2">Thêm lớp học</a>
+
+<table class="table bg-light rounded-2 p-2 table-bordered">
+    <thead>
+        <tr>
+            <th>
+                Tên lớp học
+            </th>
+            <th>
+                Ngày bắt đầu
+            </th>
+            <th>
+                Ngày kết thúc
+            </th>
+            <th>
+                Lịch học
+            </th>
+            <th>
+                GIáo viên
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tenlophoc)
+            </td>
+            <td>
+                    @item.Ngaybatdau.ToString("dd/MM/yyyy")
+            </td>
+            <td>
+                    @item.Ngayketthuc.ToString("dd/MM/yyyy")
+            </td>
+            <td>
+                    @{
+                        var thu = System.Globalization.CultureInfo.GetCultureInfo("vi-VN").DateTimeFormat.GetDayName(item.Lichhoc.DayOfWeek);
+                    }
+                    @($"{thu}, {item.Lichhoc:HH:mm} - {item.Lichhoc:dd/MM/yyyy}")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MagiaovienNavigation.Hogv)
+                    @Html.DisplayFor(modelItem => item.MagiaovienNavigation.Tengv)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Malophoc" class="btn btn-primary p-2">Sửa</a>
+                    <a asp-action="Delete" asp-route-id="@item.Malophoc" class="btn btn-primary p-2">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<div class="flex-column align-items-end d-flex">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), new X.PagedList.Web.Common.PagedListRenderOptions
+{
+    PageClasses = new[] { "page-link" },
+    ClassToApplyToFirstListItemInPager = "page-item",
+    ClassToApplyToLastListItemInPager = "page-item",
+})
+    <div>
+        <a asp-action="Index" class="btn btn-primary my-1">Quay lại</a>
+    </div>
+</div>
+
+<style>
+    .custom-pagination {
+        margin-top: 20px;
+    }
+
+    .page-item {
+        margin: 0 5px;
+    }
+
+    .page-link {
+        color: #007bff;
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+
+        .page-link:hover {
+            color: #0056b3;
+            background-color: #f1f1f1;
+            border-color: #ccc;
+        }
+
+</style>

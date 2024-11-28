@@ -1,0 +1,167 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QuanLyGiaoVu
+build_property.RootNamespace = QuanLyGiaoVu
+build_property.ProjectDir = E:\Học tập\Code\C#\QuanLyGiaoVu\QuanLyGiaoVu\QuanLyGiaoVu\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Học tập\Code\C#\QuanLyGiaoVu\QuanLyGiaoVu\QuanLyGiaoVu
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/ChamCong/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbUNvbmdcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/ChamCong/ThucHienChamCong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbUNvbmdcVGh1Y0hpZW5DaGFtQ29uZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/ChamCong/TraCuuChamCong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbUNvbmdcVHJhQ3V1Q2hhbUNvbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/ChiTietLH/ChiTietLH.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldExIXENoaVRpZXRMSC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/ChiTietLH/SuaHV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldExIXFN1YUhWLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/ChiTietLH/ThemHV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldExIXFRoZW1IVi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/DanhGiaHV/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaEdpYUhWXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/DanhGiaHV/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaEdpYUhWXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/DanhGiaHV/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaEdpYUhWXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/DanhGiaHV/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaEdpYUhWXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/GiaoVien/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhb1ZpZW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/GiaoVien/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhb1ZpZW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/GiaoVien/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhb1ZpZW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/GiaoVien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhb1ZpZW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/HocVien/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9jVmllblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/HocVien/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9jVmllblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/HocVien/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9jVmllblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/HocVien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9jVmllblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/Home/PageNotfound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWdlTm90Zm91bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/LoiQuyTrinh/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9pUXV5VHJpbmhcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/LoiQuyTrinh/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9pUXV5VHJpbmhcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/LoiQuyTrinh/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9pUXV5VHJpbmhcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/LoiQuyTrinh/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9pUXV5VHJpbmhcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/LopHoc/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9wSG9jXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/LopHoc/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9wSG9jXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/LopHoc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9wSG9jXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/LopHoc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9wSG9jXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/Shared/_LayoutCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDdXN0b21lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Học tập/Code/C\#/QuanLyGiaoVu/QuanLyGiaoVu/QuanLyGiaoVu/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-e430h5806p

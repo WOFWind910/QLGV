@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\H\u1ECDc t\u1EADp\\Code\\C#\\QuanLyGiaoVu\\QuanLyGiaoVu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{362603DD-B9CA-4CE7-9F21-EBFA1E35A371}|QuanLyGiaoVu\\QuanLyGiaoVu.csproj|e:\\h\u1ECDc t\u1EADp\\code\\c#\\quanlygiaovu\\quanlygiaovu\\quanlygiaovu\\views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{362603DD-B9CA-4CE7-9F21-EBFA1E35A371}|QuanLyGiaoVu\\QuanLyGiaoVu.csproj|solutionrelative:quanlygiaovu\\views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362603DD-B9CA-4CE7-9F21-EBFA1E35A371}|QuanLyGiaoVu\\QuanLyGiaoVu.csproj|e:\\h\u1ECDc t\u1EADp\\code\\c#\\quanlygiaovu\\quanlygiaovu\\quanlygiaovu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{362603DD-B9CA-4CE7-9F21-EBFA1E35A371}|QuanLyGiaoVu\\QuanLyGiaoVu.csproj|solutionrelative:quanlygiaovu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362603DD-B9CA-4CE7-9F21-EBFA1E35A371}|QuanLyGiaoVu\\QuanLyGiaoVu.csproj|e:\\h\u1ECDc t\u1EADp\\code\\c#\\quanlygiaovu\\quanlygiaovu\\quanlygiaovu\\controllers\\lophoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{362603DD-B9CA-4CE7-9F21-EBFA1E35A371}|QuanLyGiaoVu\\QuanLyGiaoVu.csproj|solutionrelative:quanlygiaovu\\controllers\\lophoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362603DD-B9CA-4CE7-9F21-EBFA1E35A371}|QuanLyGiaoVu\\QuanLyGiaoVu.csproj|e:\\h\u1ECDc t\u1EADp\\code\\c#\\quanlygiaovu\\quanlygiaovu\\quanlygiaovu\\controllers\\chamcongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{362603DD-B9CA-4CE7-9F21-EBFA1E35A371}|QuanLyGiaoVu\\QuanLyGiaoVu.csproj|solutionrelative:quanlygiaovu\\controllers\\chamcongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362603DD-B9CA-4CE7-9F21-EBFA1E35A371}|QuanLyGiaoVu\\QuanLyGiaoVu.csproj|e:\\h\u1ECDc t\u1EADp\\code\\c#\\quanlygiaovu\\quanlygiaovu\\quanlygiaovu\\views\\chitietlh\\chitietlh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{362603DD-B9CA-4CE7-9F21-EBFA1E35A371}|QuanLyGiaoVu\\QuanLyGiaoVu.csproj|solutionrelative:quanlygiaovu\\views\\chitietlh\\chitietlh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362603DD-B9CA-4CE7-9F21-EBFA1E35A371}|QuanLyGiaoVu\\QuanLyGiaoVu.csproj|e:\\h\u1ECDc t\u1EADp\\code\\c#\\quanlygiaovu\\quanlygiaovu\\quanlygiaovu\\controllers\\chitietlhcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{362603DD-B9CA-4CE7-9F21-EBFA1E35A371}|QuanLyGiaoVu\\QuanLyGiaoVu.csproj|solutionrelative:quanlygiaovu\\controllers\\chitietlhcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362603DD-B9CA-4CE7-9F21-EBFA1E35A371}|QuanLyGiaoVu\\QuanLyGiaoVu.csproj|e:\\h\u1ECDc t\u1EADp\\code\\c#\\quanlygiaovu\\quanlygiaovu\\quanlygiaovu\\views\\lophoc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{362603DD-B9CA-4CE7-9F21-EBFA1E35A371}|QuanLyGiaoVu\\QuanLyGiaoVu.csproj|solutionrelative:quanlygiaovu\\views\\lophoc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 40,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LayoutCustomer.cshtml",
+              "DocumentMoniker": "E:\\H\u1ECDc t\u1EADp\\Code\\C#\\QuanLyGiaoVu\\QuanLyGiaoVu\\QuanLyGiaoVu\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "RelativeDocumentMoniker": "QuanLyGiaoVu\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "ToolTip": "E:\\H\u1ECDc t\u1EADp\\Code\\C#\\QuanLyGiaoVu\\QuanLyGiaoVu\\QuanLyGiaoVu\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "RelativeToolTip": "QuanLyGiaoVu\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T23:54:57.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\H\u1ECDc t\u1EADp\\Code\\C#\\QuanLyGiaoVu\\QuanLyGiaoVu\\QuanLyGiaoVu\\appsettings.json",
+              "RelativeDocumentMoniker": "QuanLyGiaoVu\\appsettings.json",
+              "ToolTip": "E:\\H\u1ECDc t\u1EADp\\Code\\C#\\QuanLyGiaoVu\\QuanLyGiaoVu\\QuanLyGiaoVu\\appsettings.json",
+              "RelativeToolTip": "QuanLyGiaoVu\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-26T23:54:43.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChamCongController.cs",
+              "DocumentMoniker": "E:\\H\u1ECDc t\u1EADp\\Code\\C#\\QuanLyGiaoVu\\QuanLyGiaoVu\\QuanLyGiaoVu\\Controllers\\ChamCongController.cs",
+              "RelativeDocumentMoniker": "QuanLyGiaoVu\\Controllers\\ChamCongController.cs",
+              "ToolTip": "E:\\H\u1ECDc t\u1EADp\\Code\\C#\\QuanLyGiaoVu\\QuanLyGiaoVu\\QuanLyGiaoVu\\Controllers\\ChamCongController.cs",
+              "RelativeToolTip": "QuanLyGiaoVu\\Controllers\\ChamCongController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:45:33.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChiTietLH.cshtml",
+              "DocumentMoniker": "E:\\H\u1ECDc t\u1EADp\\Code\\C#\\QuanLyGiaoVu\\QuanLyGiaoVu\\QuanLyGiaoVu\\Views\\ChiTietLH\\ChiTietLH.cshtml",
+              "RelativeDocumentMoniker": "QuanLyGiaoVu\\Views\\ChiTietLH\\ChiTietLH.cshtml",
+              "ToolTip": "E:\\H\u1ECDc t\u1EADp\\Code\\C#\\QuanLyGiaoVu\\QuanLyGiaoVu\\QuanLyGiaoVu\\Views\\ChiTietLH\\ChiTietLH.cshtml",
+              "RelativeToolTip": "QuanLyGiaoVu\\Views\\ChiTietLH\\ChiTietLH.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T08:41:37.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\H\u1ECDc t\u1EADp\\Code\\C#\\QuanLyGiaoVu\\QuanLyGiaoVu\\QuanLyGiaoVu\\Views\\LopHoc\\Create.cshtml",
+              "RelativeDocumentMoniker": "QuanLyGiaoVu\\Views\\LopHoc\\Create.cshtml",
+              "ToolTip": "E:\\H\u1ECDc t\u1EADp\\Code\\C#\\QuanLyGiaoVu\\QuanLyGiaoVu\\QuanLyGiaoVu\\Views\\LopHoc\\Create.cshtml",
+              "RelativeToolTip": "QuanLyGiaoVu\\Views\\LopHoc\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T02:35:48.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LopHocController.cs",
+              "DocumentMoniker": "E:\\H\u1ECDc t\u1EADp\\Code\\C#\\QuanLyGiaoVu\\QuanLyGiaoVu\\QuanLyGiaoVu\\Controllers\\LopHocController.cs",
+              "RelativeDocumentMoniker": "QuanLyGiaoVu\\Controllers\\LopHocController.cs",
+              "ToolTip": "E:\\H\u1ECDc t\u1EADp\\Code\\C#\\QuanLyGiaoVu\\QuanLyGiaoVu\\QuanLyGiaoVu\\Controllers\\LopHocController.cs",
+              "RelativeToolTip": "QuanLyGiaoVu\\Controllers\\LopHocController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T02:33:49.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChiTietLHController.cs",
+              "DocumentMoniker": "E:\\H\u1ECDc t\u1EADp\\Code\\C#\\QuanLyGiaoVu\\QuanLyGiaoVu\\QuanLyGiaoVu\\Controllers\\ChiTietLHController.cs",
+              "RelativeDocumentMoniker": "QuanLyGiaoVu\\Controllers\\ChiTietLHController.cs",
+              "ToolTip": "E:\\H\u1ECDc t\u1EADp\\Code\\C#\\QuanLyGiaoVu\\QuanLyGiaoVu\\QuanLyGiaoVu\\Controllers\\ChiTietLHController.cs",
+              "RelativeToolTip": "QuanLyGiaoVu\\Controllers\\ChiTietLHController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T13:28:57.627Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

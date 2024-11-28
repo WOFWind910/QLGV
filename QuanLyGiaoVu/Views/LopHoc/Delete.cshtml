@@ -1,0 +1,53 @@
+﻿@model QuanLyGiaoVu.Data.Lophoc
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<h4>Lớp học</h4>
+<hr />
+<div>
+    <dl class="row bg-light rounded-2 p-2">
+        <dt class = "col-sm-2">
+            Tên lớp học
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tenlophoc)
+        </dd>
+        <dt class = "col-sm-2">
+           Ngày bắt đầu
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Ngaybatdau.ToString("dd/MM/yyyy")
+        </dd>
+        <dt class = "col-sm-2">
+            Ngày kết thúc
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Ngayketthuc.ToString("dd/MM/yyyy")
+        </dd>
+        <dt class = "col-sm-2">
+            Lịch học 
+        </dt>
+        <dd class = "col-sm-10">
+            @{
+                var thu = System.Globalization.CultureInfo.GetCultureInfo("vi-VN").DateTimeFormat.GetDayName(Model.Lichhoc.DayOfWeek);
+            }
+            @($"{thu}, {Model.Lichhoc:HH:mm} - {Model.Lichhoc:dd/MM/yyyy}")
+        </dd>
+        <dt class = "col-sm-2">
+            Giáo viên
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MagiaovienNavigation.Hogv)
+            @Html.DisplayFor(model => model.MagiaovienNavigation.Tengv)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Malophoc" />
+        <input type="submit" value="Xóa" class="btn btn-danger my-2" /> |
+        <a asp-action="Index" class="btn btn-primary my-2">Quay lại</a>
+    </form>
+</div>

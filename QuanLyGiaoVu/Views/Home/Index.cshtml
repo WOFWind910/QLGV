@@ -1,0 +1,78 @@
+﻿<div class="row g-4">
+    <div class="col-xl-4">
+        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+            <i class="bi-person-lines-fill fa-3x text-primary"></i>
+            <div class="ms-3">
+                <p class="mb-2">Số học viên đang học</p>
+                <h6 class="mb-0">@ViewBag.hv</h6>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4">
+        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+            <i class="bi bi-book fa-3x text-primary"></i>
+            <div class="ms-3">
+                <p class="mb-2">Số lớp học hiện tại</p>
+                <h6 class="mb-0">@ViewBag.lh</h6>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4">
+        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+            <i class="bi-person-badge fa-3x text-primary"></i>
+            <div class="ms-3">
+                <p class="mb-2">Số lượng giáo viên</p>
+                <h6 class="mb-0">@ViewBag.gv</h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-light text-center rounded p-4 h-100">
+                <div class="d-flex align-items-center justify-content-between mb-4">
+                    <h6 class="mb-0">Số lượng học viên tham gia các lớp học</h6>
+                </div>
+                <canvas id="bar"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script src="~/lib/chart/chart.min.js"></script>
+
+    <script>
+        const chartData = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.ChartData));
+
+        const labels = chartData.map(item => item.lophoc);
+        const values = chartData.map(item => item.soluong);
+        var ctx4 = $("#bar").get(0).getContext("2d");
+        var myChart4 = new Chart(ctx4, {
+            type: "bar",
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Lớp học',
+                    backgroundColor: [
+                        "rgba(0, 156, 255, .7)",
+                        "rgba(0, 156, 255, .6)",
+                        "rgba(0, 156, 255, .5)",
+                        "rgba(0, 156, 255, .4)",
+                        "rgba(0, 156, 255, .3)"
+                    ],
+                    data: values
+                }]
+            },
+            options: {
+                responsive: true
+            }
+        });
+    </script>
+}
+
+
+
+

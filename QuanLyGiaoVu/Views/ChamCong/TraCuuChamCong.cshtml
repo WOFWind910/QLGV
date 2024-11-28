@@ -1,0 +1,109 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<QuanLyGiaoVu.Data.Thongtinchamcong>
+
+@{
+    ViewData["Title"] = "TraCuuChamCong";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<form asp-action="TraCuuChamCong" method="get" class="my-2 bg-light rounded-2 p-2">
+    <div class="form-group row">
+        <div class="col-xl-6">
+            <select class="form-control" asp-items="ViewBag.Malophoc" name="idlh">
+                <option value="">-- Chọn lớp học --</option>
+            </select>
+        </div>
+        <div class="col-xl-6">
+            <select class="form-control" asp-items="ViewBag.Magiaovien" name="idgv">
+                <option value="">-- Chọn giáo viên --</option>
+            </select>
+        </div>
+        <div class="d-flex justify-content-end my-2">
+            <button type="submit" class="btn btn-primary ">Tìm kiếm</button>
+        </div>
+    </div>
+</form>
+<h4>Danh Sách Chấm Công</h4>
+<table class="table bg-light rounded-2 p-2">
+    <thead>
+        <tr>
+            <th>
+                Giáo viên
+            </th>
+            <th>
+                Lớp học
+            </th>
+            <th>
+                Thời gian chấm công
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MagiaovienNavigation.Hogv)
+                    @Html.DisplayFor(modelItem => item.MagiaovienNavigation.Tengv)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MalophocNavigation.Tenlophoc)
+                </td>
+                <td>
+                    @{
+                        var thu = System.Globalization.CultureInfo.GetCultureInfo("vi-VN").DateTimeFormat.GetDayName(item.Thoigianchamcong.DayOfWeek);
+                    }
+                    @($"{thu}, {item.Thoigianchamcong:HH:mm} - {item.Thoigianchamcong:dd/MM/yyyy}")
+                </td>
+                <td><a asp-action="Delete" asp-route-id="@item.Sott" class="btn btn-primary p-2">Xóa</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="flex-column align-items-end d-flex">
+    @Html.PagedListPager(Model, page => Url.Action("TraCuuChamCong", new { page }), new X.PagedList.Web.Common.PagedListRenderOptions
+{
+    PageClasses = new[] { "page-link" },
+    ClassToApplyToFirstListItemInPager = "page-item",
+    ClassToApplyToLastListItemInPager = "page-item",
+})
+    <div class="">
+        <a class="btn btn-primary" asp-action="TraCuuChamCong">Quay lại</a>
+    </div>
+</div>
+
+<style>
+    .custom-pagination {
+        margin-top: 20px;
+    }
+
+    .page-item {
+        margin: 0 5px;
+    }
+
+    .page-link {
+        color: #007bff;
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+
+        .page-link:hover {
+            color: #0056b3;
+            background-color: #f1f1f1;
+            border-color: #ccc;
+        }
+
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".delete-form").on("submit", function (e) {
+            var confirmed = confirm("Bạn có muốn xóa học viên này không?");
+            if (!confirmed) {
+                e.preventDefault();
+            }
+        });
+    });
+</script>

@@ -1,0 +1,108 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<QuanLyGiaoVu.Data.Giaovien>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<h1>Giáo viên</h1>
+
+
+<form asp-action="Index" method="get" class="my-2 bg-light rounded-2 p-2">
+    <div class="form-group row">
+        <div class="col-xl-6">
+            <input type="text" name="searchString" placeholder="Nhập tên giáo viên" value="@ViewBag.SearchString" class="form-control" />
+        </div>
+        <div class="col-xl-3">
+            <button type="submit" class="btn btn-primary my-xl-0 my-2">Tìm kiếm</button>
+        </div>
+        <div class="col-xl-3">
+            <button type="submit" class="btn btn-primary my-xl-0 my-2" asp-action="Create">Thêm giáo viên</button>
+        </div>
+    </div>
+</form>
+
+<table class="table bg-light rounded-2 p-2 table-bordered">
+    <thead>
+        <tr>
+            <th>
+                Họ giáo viên
+            </th>
+            <th>
+                Tên giáo viên
+            </th>
+            <th>
+                Ngày sinh
+            </th>
+            <th>
+               Giới tính
+            </th>
+            <th>
+                Số điện thoại
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hogv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tengv)
+            </td>
+            <td>
+                    @item.Ngaysinh.ToString("dd/MM/yyyy")
+            </td>
+            <td>
+                    @(item.Gioitinh ? "Nam" : "Nữ")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sodienthoai)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Magiaovien" class="btn btn-primary p-2">Sửa</a>
+                <a asp-action="Delete" asp-route-id="@item.Magiaovien" class="btn btn-primary p-2">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<div class="flex-column align-items-end d-flex">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), new X.PagedList.Web.Common.PagedListRenderOptions
+{
+    PageClasses = new[] { "page-link" },
+    ClassToApplyToFirstListItemInPager = "page-item",
+    ClassToApplyToLastListItemInPager = "page-item",
+})
+    <div>
+        <a asp-action="Index" class="btn btn-primary my-1">Quay lại</a>
+    </div>
+</div>
+
+<style>
+    .custom-pagination {
+        margin-top: 20px;
+    }
+
+    .page-item {
+        margin: 0 5px;
+    }
+
+    .page-link {
+        color: #007bff;
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+
+        .page-link:hover {
+            color: #0056b3;
+            background-color: #f1f1f1;
+            border-color: #ccc;
+        }
+
+</style>

@@ -1,0 +1,52 @@
+﻿@model QuanLyGiaoVu.Data.Danhgiahocvien
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+<div>
+    <h4>Đánh giá học viên</h4>
+    <hr />
+    <dl class="row bg-light rounded-2 p-2">
+        <dt class = "col-sm-2">
+            Giáo viên
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MagiaovienNavigation.Hogv)
+
+            @Html.DisplayFor(model => model.MagiaovienNavigation.Tengv)
+        </dd>
+        <dt class="col-sm-2">
+            Lớp học
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MalophocNavigation.Tenlophoc)
+        </dd>
+        <dt class = "col-sm-2">
+            Học viên
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MahocvienNavigation.Hohv)
+
+            @Html.DisplayFor(model => model.MahocvienNavigation.Tenhv)
+        </dd>
+        <dt class="col-sm-2">
+           Nhận xét
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nhanxet)
+        </dd>
+        <dt class="col-sm-2">
+            Điểm số
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Diemso)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Stthv" />
+        <input type="submit" value="Xóa" class="btn btn-danger my-2" /> |
+        <a asp-action="Index" class="btn btn-primary my-2">Quay lại </a>
+    </form>
+</div>

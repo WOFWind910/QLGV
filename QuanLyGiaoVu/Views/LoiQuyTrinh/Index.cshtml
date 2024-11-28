@@ -1,0 +1,95 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<QuanLyGiaoVu.Data.Loiquytrinh>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+<h4>Kiểm tra quy trình</h4>
+<hr />
+<p>
+    <a asp-action="Create" class="btn btn-primary my-2">Tạo mô tả lỗi</a>
+</p>
+<table class="table bg-light table-bordered rounded-2 p-2">
+    <thead>
+        <tr>
+            <th>
+                Giáo viên
+            </th>
+            <th>
+                Lớp học
+            </th>
+            <th>
+                Tên Lỗi
+            </th>
+            <th>
+                Mô tả lỗi
+            </th>
+            <th>
+                Ngày vi phạm
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MagiaovienNavigation.Hogv)
+                    @Html.DisplayFor(modelItem => item.MagiaovienNavigation.Tengv)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MalophocNavigation.Tenlophoc)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tenloi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Motaloi)
+                </td>
+                <td>
+                    @item.Ngayvipham.ToString("dd/MM/yyyy")
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Maloi" class="btn btn-primary">Sửa</a>
+                    <a asp-action="Delete" asp-route-id="@item.Maloi" class="btn btn-primary">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="d-flex justify-content-end ">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), new X.PagedList.Web.Common.PagedListRenderOptions
+{
+    PageClasses = new[] { "page-link" },
+    ClassToApplyToFirstListItemInPager = "page-item",
+    ClassToApplyToLastListItemInPager = "page-item",
+})
+</div>
+
+<style>
+    .custom-pagination {
+        margin-top: 20px;
+    }
+
+    .page-item {
+        margin: 0 5px;
+    }
+
+    .page-link {
+        color: #007bff;
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+
+        .page-link:hover {
+            color: #0056b3;
+            background-color: #f1f1f1;
+            border-color: #ccc;
+        }
+
+</style>
+

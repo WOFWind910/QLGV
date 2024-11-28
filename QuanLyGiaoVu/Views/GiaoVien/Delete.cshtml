@@ -1,0 +1,50 @@
+﻿@model QuanLyGiaoVu.Data.Giaovien
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+
+<h4>Giáo viên</h4>
+<hr />
+<div>
+    <dl class="row bg-light rounded-2 p-2">
+        <dt class = "col-sm-2">
+            Họ giáo viên
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Hogv)
+        </dd>
+        <dt class = "col-sm-2">
+            Tên giáo viên
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tengv)
+        </dd>
+        <dt class = "col-sm-2">
+            Ngày sinh
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Ngaysinh.ToString("dd/MM/yyyy")
+        </dd>
+        <dt class = "col-sm-2">
+            Giới tính
+        </dt>
+        <dd class = "col-sm-10">
+            @(Model.Gioitinh ? "Nam" : "Nữ")
+        </dd>
+        <dt class = "col-sm-2">
+            Số điện thoại
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Sodienthoai)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Magiaovien" />
+        <input type="submit" value="Xóa" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-primary ">Quay lại</a>
+    </form>
+</div>

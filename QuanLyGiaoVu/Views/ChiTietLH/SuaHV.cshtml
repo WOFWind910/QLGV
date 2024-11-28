@@ -1,0 +1,38 @@
+﻿@model QuanLyGiaoVu.Data.Thongtinchitietlophoc
+
+@{
+    ViewData["Title"] = "SuaHV";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<h1>Sửa Thông Tin</h1>
+<hr />
+<div class="row bg-light rounded-2 p-2">
+    <div class="col-md-4">
+        <form asp-action="SuaHV">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Stt" />
+            <div class="form-group">
+                <label asp-for="Mahocvien" class="control-label">Họ và tên học viên</label>
+                <select asp-for="Mahocvien" class="form-control" asp-items="ViewBag.Mahocvien"></select>
+                <span asp-validation-for="Mahocvien" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Malophoc" class="control-label">Lớp học</label>
+                <select asp-for="Malophoc" class="form-control" asp-items="ViewBag.Malophoc"></select>
+                <span asp-validation-for="Malophoc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Lưu" class="btn btn-primary my-2" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ChiTietLH" class="btn btn-primary my-2" >Quay lại</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,37 @@
+﻿@model QuanLyGiaoVu.Data.Thongtinchamcong
+
+@{
+    ViewData["Title"] = "ThucHienChamCong";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<h4>Thực Hiện Chấm Công</h4>
+<hr />
+<div class="row bg-light rounded-2 p-2">
+    <div class="col-md-4">
+        <form asp-action="ThucHienChamCong">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Magiaovien" class="control-label">Giáo viên</label>
+                <select asp-for="Magiaovien" class ="form-control" asp-items="ViewBag.Magiaovien"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Malophoc" class="control-label">Lớp học</label>
+                <select asp-for="Malophoc" class ="form-control" asp-items="ViewBag.Malophoc"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Thoigianchamcong" class="control-label">Thời gian chấm công</label>
+                <input asp-for="Thoigianchamcong" class="form-control" />
+                <span asp-validation-for="Thoigianchamcong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Chấm công" class="btn btn-primary my-2" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
